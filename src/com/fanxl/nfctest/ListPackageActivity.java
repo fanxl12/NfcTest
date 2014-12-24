@@ -13,6 +13,11 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 
+/**
+ * 程序主界面
+ * @author fanxl
+ *
+ */
 public class ListPackageActivity extends ListActivity implements OnItemClickListener {
 
 	private List<String> packages = new ArrayList<String>();
